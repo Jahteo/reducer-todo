@@ -56,7 +56,12 @@ const Form = () => {
     <div>
       <h1>Bestest Form Ever.</h1>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="input" value={inputState} onChange={handleChange}/>
+        <input
+          type="text"
+          name="input"
+          value={inputState}
+          onChange={handleChange}
+        />
         <button
           type="submit"
         > Add Todo</button>
